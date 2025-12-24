@@ -1,8 +1,8 @@
 package gregtechlite.gtlitecore.mixins.minecraft.client;
 
 import gregtechlite.gtlitecore.GTLiteMod;
-import gregtechlite.gtlitecore.api.translation.CommonI18n;
 import gregtechlite.gtlitecore.api.GTLiteLog;
+import gregtechlite.gtlitecore.api.translation.CommonI18n;
 import gregtechlite.gtlitecore.client.util.IconLoader;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.DefaultResourcePack;

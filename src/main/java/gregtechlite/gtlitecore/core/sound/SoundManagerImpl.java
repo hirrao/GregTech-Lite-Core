@@ -1,10 +1,10 @@
 package gregtechlite.gtlitecore.core.sound;
 
 import com.morphismmc.morphismlib.client.Games;
-import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
-import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import gregtechlite.gtlitecore.api.GTLiteAPI;
 import gregtechlite.gtlitecore.api.sound.SoundManager;
+import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
+import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.util.ResourceLocation;

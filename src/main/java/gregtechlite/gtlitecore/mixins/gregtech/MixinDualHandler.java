@@ -7,7 +7,6 @@ import gregtech.api.capability.INotifiableHandler;
 import gregtech.api.capability.impl.ItemHandlerList;
 import gregtech.api.metatileentity.MetaTileEntity;
 import gregtechlite.gtlitecore.api.capability.MultipleNotifiableHandler;
-
 import gregtechlite.gtlitecore.api.mixins.Implemented;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.IItemHandlerModifiable;

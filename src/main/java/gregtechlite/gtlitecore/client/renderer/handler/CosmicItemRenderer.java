@@ -11,7 +11,7 @@ import gregtechlite.gtlitecore.client.model.WrappedModelGetter;
 import gregtechlite.gtlitecore.client.renderer.CosmicRenderBehavior;
 import gregtechlite.gtlitecore.client.renderer.CustomItemRenderer;
 import gregtechlite.gtlitecore.client.shader.CosmicShaderHelper;
-import net.minecraft.client.renderer.*;
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
