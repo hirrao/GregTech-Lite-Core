@@ -11,6 +11,7 @@ plugins {
     kotlin("jvm") version libs.versions.kotlin.get()
     id("maven-publish")
     id("eclipse")
+    alias(libs.plugins.spotless)
     alias(libs.plugins.ideaExt)
     alias(libs.plugins.retrofuturaGradle)
     alias(libs.plugins.curseGradle)
@@ -282,6 +283,27 @@ idea {
                 }
             }
         }
+    }
+}
+
+spotless {
+    encoding("UTF-8")
+
+    kotlin {
+        target("src/*/kotlin/**/*.kt")
+
+        ktlint()
+        toggleOffOn("@formatter:off","@formatter:on")
+        trimTrailingWhitespace()
+    }
+
+    java {
+        target("src/*/java/**/*.java", "src/*/scala/**/*.java")
+
+        toggleOffOn("@formatter:off","@formatter:on")
+        removeUnusedImports()
+        trimTrailingWhitespace()
+        eclipse("4.37.0").configFile("spotless.eclipseformat.xml")
     }
 }
 
